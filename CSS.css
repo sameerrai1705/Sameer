@@ -1,0 +1,143 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+}
+
+h1{
+    margin: 50px auto 0;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.62rem;
+    color: #66BFBF;
+    font-weight: bold;
+}
+
+h2{
+    /* font-family: 'Montserrat',sans-serif; */
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: bolder;
+}
+
+h3{
+    color: #11999E;
+    /* font-family: 'Montserrat',sans-serif; */
+    font-weight: bolder;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    border-color: grey;
+    width: 6%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    /* background-image: url("./itachi.jpg"); */
+}
+
+p{
+    line-height: 2;
+}
+
+
+    .mountain {
+        height: 500px;
+        width: 800px;
+    }
+
+
+.bottom-container{
+    margin: 0 auto;
+    background-color: #E4F9F5;
+    background-size: cover;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 50px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #66BFBF;
+    font-size: 0.95rem;
+}
+
+.get-in-touch{
+    margin-top: 0;
+}
+
+.for-collaboration{
+    width: 30%;
+    margin:0 auto;
+}
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.dsa-image{
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-image{
+    width: 45%;
+    float:right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #0f0f0c;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
